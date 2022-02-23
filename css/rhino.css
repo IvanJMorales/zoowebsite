@@ -1,6 +1,7 @@
 body {
     height: auto;
     margin: 0;
+    font-family: 'Arial';
 }
 
 @media only screen and (min-width: 1200px) {
@@ -87,6 +88,8 @@ body {
     text-align: center;
     font-size: 20px;
     overflow-wrap: break-word;
+    background-color: bisque;
+    height: 500px;
 }
 
 footer {
