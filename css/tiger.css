@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+.banner {
+    height: 500px;
+    background-image: url('../img/tigerBanner.jpg');
+    background-size: cover;
+}
+
+.navbar {
+    text-align: center;
+    height: 50px;
+}
+
+.navbar a {
+    color: white;
+    font-size: 40px;
+    padding-right: 30px;
+}
+
+.infoBanner {
+    font-size: 20px;
+    color: orange;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    margin: auto;
+    width: 500px;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    overflow-wrap: break-word;
+}
+
+footer {
+    text-align: center;
+}
