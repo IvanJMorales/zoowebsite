@@ -37,6 +37,8 @@ body {
     padding: 0 30px 0 0;
     text-decoration: none;
 }
+
+.navbar a:hover {text-decoration: underline}
 /***Navbar***/
 
 /***Dropdown***/
@@ -48,6 +50,11 @@ body {
     cursor: pointer;
     color: white;
 }
+
+.dropdownButton:hover {
+    text-decoration: underline
+}
+
 .dropdown {
     display: inline-block;
     position: relative;
@@ -69,7 +76,7 @@ body {
     display: block;
 }
   
-.dropdownContent a:hover {background-color: #f1f1f1}
+.dropdownContent a:hover {text-decoration: underline}
   
 .dropdown:hover .dropdownContent {
     display: block;
@@ -96,5 +103,8 @@ body {
 }
 
 footer {
+    margin-top: 40px;
+    background-color: darkolivegreen;
+    height: 100px;
     text-align: center;
 }
